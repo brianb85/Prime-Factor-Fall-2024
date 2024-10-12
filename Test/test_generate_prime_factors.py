@@ -8,4 +8,6 @@ def test_step1_datatype():
 
 def test_step2_one():
     assert prime.generate_prime_factors(1) == []
-    
+
+def test_step3_two():
+    assert prime.generate_prime_factors(2) == [2]
