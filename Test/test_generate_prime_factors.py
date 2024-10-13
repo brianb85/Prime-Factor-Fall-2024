@@ -20,3 +20,6 @@ def test_step5_four():
 
 def test_step6_six():
     assert prime.generate_prime_factors(6) == [2, 3]
+
+def test_step7_eight():
+    assert prime.generate_prime_factors(8) == [2, 2, 2]
